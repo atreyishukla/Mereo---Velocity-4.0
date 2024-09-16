@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('fonts/Satoshi-Regular.otf') format('truetype');
+}
+html {
+height: 100%;
+width: 100%;
+font-family: 'Satoshi-Regular', sans-serif;
+scroll-behavior: smooth;
+}
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi-Regular', sans-serif; /* You can replace this with your custom font */
+}
+
+/* Body styling */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Gradient background */
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 200%;
+}
+
+/* Riddle box styling */
+.riddle-box {
+    background: #1D1D1D;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200%;
+}
+
+/* Heading styling */
+.riddle-box h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.riddle-box h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Input and button styling */
+.riddle-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #1D1D1D;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+.riddle-box button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+
+
